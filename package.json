@@ -1,0 +1,22 @@
+{
+  "name": "shenggao-test-npm1",
+  "version": "1.0.0",
+  "description": "升高测试npm包",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShengGaoW/shenggao-test-npm.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "WeiShengGao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShengGaoW/shenggao-test-npm/issues"
+  },
+  "homepage": "https://github.com/ShengGaoW/shenggao-test-npm#readme"
+}
