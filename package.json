@@ -1,6 +1,6 @@
 {
   "name": "shenggao-test-npm1",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "升高测试npm包",
   "main": "index.js",
   "scripts": {
