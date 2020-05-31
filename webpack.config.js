@@ -9,15 +9,20 @@ module.exports = {
     output: {
         filename: '[name].js',
         library: 'add',
+        libraryTarget: 'umd',
         libraryExport: 'default',
-        libraryTarget: 'umd'
+        globalObject: 'this'
     },
-    // optimization: {
-    //     minimize: true,
-    //     minimizer: [
-    //         new TerserPlugin({
-    //             include: /\.min\.js$/,
-    //         })
-    //     ]
-    // }
+    optimization: {
+        minimize: true,
+        minimizer: [
+            new TerserPlugin({
+                include: /\.min\.js$/,
+            })
+        ]
+    }
 }
+
+
+
+
